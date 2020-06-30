@@ -1,0 +1,31 @@
+{
+  "name": "atm-module-14-reporting-in-test-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "node ./test/utils/delete_reports.js",
+    "test": "protractor ./test/config/protractor.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valeryiaStrom/ATM-module-14-Reporting-in-Test-Automation.git"
+  },
+  "author": "Valeryia Strom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valeryiaStrom/ATM-module-14-Reporting-in-Test-Automation/issues"
+  },
+  "homepage": "https://github.com/valeryiaStrom/ATM-module-14-Reporting-in-Test-Automation#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.2.0",
+    "cucumber-junit-convert": "^1.1.0",
+    "cucumber-pretty": "^6.0.0",
+    "fs-extra": "^9.0.1",
+    "protractor": "^7.0.0",
+    "protractor-cucumber-framework": "^6.2.1",
+    "yargs": "^15.3.1"
+  }
+}
